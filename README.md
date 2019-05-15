@@ -9,9 +9,9 @@ Implementing unit test on FizzBuzz Game with the help of Mocha and Jasmine
 
 ## Defining the FizzBuzz Game
 In [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz) game, we will write a function that takes a positive number and returns:
-* *‘Fizz’*: if the input is divisible by 3
-* *‘Buzz’*: if the input is divisible by 5
-* *‘FizzBuzz’*: if the input is divisible by both 3 and 5
+* **‘Fizz’**: if the input is divisible by 3
+* **‘Buzz’**: if the input is divisible by 5
+* **‘FizzBuzz’**: if the input is divisible by both 3 and 5
 * The original input number if otherwise
 
 An example: 
@@ -43,20 +43,23 @@ function fizzBuzz(num) {
 ```
 
 ## Run tests with Macha
-### Initialization in the terminal: 
+### 1. Initialization in the terminal: 
  `$ npm init`
+<br/>
 
 ### Install Mocha and Chai with npm in the terminal:
  `$ npm install mocha chai —save-dev`
+<br/>
 
-### Go to fizzbuzz_spec.js in the editor:
+### 2. Go to fizzbuzz_spec.js in the editor:
 Write unit tests for the fizzBuzz function. Test cases are: 
 
-[case 1] input: 9, expect output : Fizz
-[case 2] input: 10, expect output : Buzz
-[case 3] input: 15, expect output : FizzBuzz
-[case 4] input: 16, expect output : 16
+* [case 1] input: 9, expect output : Fizz <br/>
+* [case 2] input: 10, expect output : Buzz <br/>
+* [case 3] input: 15, expect output : FizzBuzz <br/>
+* [case 4] input: 16, expect output : 16 <br/>
+<br/>
 
-#### Show Test Result in the browser:
+#### 3. Show Test Result in the browser:
 Open index.html in the browser to view the results:
 ![image](https://drive.google.com/uc?export=view&id=10EoChPkCs72hhBfzKJqbkw5B2zqPkv_y)
