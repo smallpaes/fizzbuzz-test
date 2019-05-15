@@ -47,11 +47,11 @@ function fizzBuzz(num) {
  `$ npm init`
 <br/>
 
-### Install Mocha and Chai with npm in the terminal:
+### 2. Install Mocha and Chai with npm in the terminal:
  `$ npm install mocha chai —save-dev`
 <br/>
 
-### 2. Go to fizzbuzz_spec.js in the editor:
+### 3. Go to fizzbuzz_spec.js in the editor:
 Write unit tests for the fizzBuzz function. Test cases are: 
 
 * [case 1] input: 9, expect output : Fizz <br/>
@@ -60,6 +60,6 @@ Write unit tests for the fizzBuzz function. Test cases are:
 * [case 4] input: 16, expect output : 16 <br/>
 <br/>
 
-#### 3. Show Test Result in the browser:
+### 4. Show Test Result in the browser:
 Open index.html in the browser to view the results:
 ![image](https://drive.google.com/uc?export=view&id=10EoChPkCs72hhBfzKJqbkw5B2zqPkv_y)
