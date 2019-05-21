@@ -25,8 +25,8 @@ fizzBuzz(5) //Output: 'Buzz'
 ## Preparing the fizzBuzz function
 ### Go to fizz buzz.js
 Write a fizzBuzz function to wait for a positive number input and return respectively
-```
-function fizzBuzz(num) {
+```javascript
+ function fizzBuzz(num) {
   let str = ''
   if (num % 3 === 0) {
     str += 'Fizz'
